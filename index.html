@@ -3,47 +3,197 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curva 73 | Arquivo Automotivo</title>
+    
+    <!-- Importando fontes: 'Courier Prime' (Estilo Máquina de Escrever) e 'Roboto Mono' -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=Roboto+Mono:wght@300;400;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
-    <title>Curva 73</title>
 </head>
 <body>
+
+    <!-- HEADER (Preto Sólido) -->
     <header>
-        <h1>Curva 73</h1>
-        <div>
-            <input type="text" id="input-busca" placeholder="Digite um modelo ou marca">
-            <button id="botao-busca" onclick="buscar()">Buscar</button>
+        <div class="logo">
+            Curva <span class="orange-text">73</span>
         </div>
+        <nav>
+        <ul>
+            <li><a href="#inicio">#início</a></li>
+            <li><a href="#modelos">#Modelos</a></li>
+            <!-- NOVO LINK -->
+            <li><a href="#competicoes">#Competições</a></li>
+            <li><a href="#historia">#História</a></li>
+        </ul>
+    </nav>
+        <div class="mobile-menu-icon">&#9776;</div>
     </header>
 
-    <main>
-        <section class="card-conteiner">
-            <!-- <article class="card">
-                <h2>Chevrolet Opala</h2>
-                <p>O grande ícone da Stock Car Brasil por décadas, notável pela robustez e o lendário motor 6 cilindros 4.1.</p>
-                <p>1968</p>
-                <a href="https://pt.wikipedia.org/wiki/Chevrolet_Opala" target="_blank">Saiba mais</a>
-            </article> -->
+    <!-- HERO SECTION (Texto Limpo / Estilo Editorial) -->
+    <section id="inicio" class="hero-text-only">
+        <div class="container">
+            <h1>Acelere na Memória</h1>
+            <p class="subtitle">Veículos Clássicos de Competição do Brasil</p>
+            <span class="meta-data">Arquivos do Automobilismo</span>
+        </div>
+    </section>
 
-            <!-- <article class="card">
-                <h2>Willys Interlagos</h2>
-                <p>Foi o primeiro carro esportivo fabricado no Brasil, uma versão licenciada do Alpine A108, feito especificamente para competições.</p>
-                <p>1962</p>
-                <a href="https://pt.wikipedia.org/wiki/Willys_Interlagos" target="_blank">Saiba mais</a>
-            </article>     -->
-        </section>
-    </main>
+    <!-- MODELOS EM DESTAQUE -->
+    <section id="modelos" class="models">
+        <h2 class="section-title">2. Modelos em Destaque</h2>
+        
+       <div class="grid-container">
+            <!-- CARD 1: OPALA -->
+            <article class="card">
+                <div class="card-image">
+                    <img src="img/opala-stock-ima.jpg" alt="Opala">
+                </div>
+                <div class="card-content">
+                    <h3>Opala Stock Car</h3>
+                    <p class="code-ref">Base da categoria principal, usando um motor 6 cilindros.</p>
+                    <!-- ALTERAÇÃO AQUI: Link para a página de detalhes -->
+                    <a href="detalhes-opala.html" class="btn">Ver Detalhes</a>
+                </div>
+            </article>
 
-    <footer class="footer">
-        <ul class="footer-links">
-            <li>
-                <a href="https://www.fbva.com.br/">FBVA</a>
-            </li>
-            <li>
-                <a href="https://www.antigomodelismo.com.br/">Antigomodelismo</a>
-            </li>
-        </ul>
+            <!-- CARD 2: PUMA -->
+            <article class="card">
+                <div class="card-image">
+                    <img src="img/pumta-gt-ima.jpg" alt="Puma">
+                </div>
+                <div class="card-content">
+                    <h3>Puma GT</h3>
+                    <p class="code-ref">Leve e ágil, o campeão das provas de longa duração.</p>
+                    <!-- ALTERAÇÃO AQUI -->
+                    <a href="detalhes-puma.html" class="btn">Ver Detalhes</a>
+                </div>
+            </article>
+
+            <!-- CARD 3: FUSCA -->
+            <article class="card">
+                <div class="card-image">
+                    <img src="img/fusca-d3-ima.jpg" alt="Fusca">
+                </div>
+                <div class="card-content">
+                    <h3>Fusca Divisão 3</h3>
+                    <p class="code-ref">Versões modificadas, dominavam corridas de subida de montanha.</p>
+                    <!-- ALTERAÇÃO AQUI -->
+                    <a href="detalhes-fusca.html" class="btn">Ver Detalhes</a>
+                </div>
+            </article>
+        </div>
+
+        <!-- NOVO BOTÃO DE ACESSO -->
+        <div class="view-all-container">
+            <p style="font-family: var(--font-sans); margin-bottom: 1rem; color: #666;">Acesso ao arquivo completo:</p>
+            <a href="todos-modelos.html" class="btn-outline">Clique aqui para outros modelos</a>
+        </div>
+    </section>
+
+    <!-- NOVA SEÇÃO: COMPETIÇÕES -->
+    <section id="competicoes" class="models" style="background-color: #E5E5E5;"> <!-- Fundo levemente diferente para contraste -->
+        <h2 class="section-title">3. Anos 70 e a popularização das corridas no Brasil</h2>
+        
+        <div class="grid-container">
+            
+            <!-- CARD 1: Divisão 3 -->
+            <article class="card">
+                <div class="card-image">
+                    <!-- Imagem ilustrativa de turismo/fusca -->
+                    <img src="img/divisao-3-ima.jpg" alt="Divisão 3">
+                </div>
+                <div class="card-content">
+                    <h3>Divisão 3 (D3)</h3>
+                    <p class="code-ref" style="margin-bottom: 0;">
+                        O "vale-tudo" das pistas. Conhecida pela liberdade mecânica extrema, permitia que Fuscas e Opalas fossem modificados até o limite, criando monstros aerodinâmicos e motores explosivos.
+                    </p>
+                </div>
+            </article>
+
+            <!-- CARD 2: Mil Milhas -->
+            <article class="card">
+                <div class="card-image">
+                    <!-- Imagem noturna/pista -->
+                    <img src="img/mil-milhas-ima.png" alt="Mil Milhas">
+                </div>
+                <div class="card-content">
+                    <h3>Mil Milhas Brasileiras</h3>
+                    <p class="code-ref" style="margin-bottom: 0;">
+                        A prova de resistência suprema. Inspirada na Mille Miglia italiana, testava a durabilidade das máquinas nacionais em Interlagos, muitas vezes durando mais de 12 horas madrugada adentro.
+                    </p>
+                </div>
+            </article>
+
+            <!-- CARD 3: Campeonato de Marcas -->
+            <article class="card">
+                <div class="card-image">
+                    <!-- Bandeira quadriculada/Grid -->
+                    <img src="img/copa-brasil-ima.jpg" alt="Marcas e Pilotos">
+                </div>
+                <div class="card-content">
+                    <h3>Copa Brasil de Marcas</h3>
+                    <p class="code-ref" style="margin-bottom: 0;">
+                        A guerra das montadoras. Ford, Chevrolet, Volkswagen e Fiat colocavam seus modelos de rua na pista para provar quem tinha o melhor carro para o consumidor brasileiro. Vencer no domingo, vender na segunda.
+                    </p>
+                </div>
+            </article>
+
+            <!-- CARD 4: Fórmula 1 (GP Brasil) -->
+            <article class="card">
+                <div class="card-image">
+                    <!-- Pista clássica -->
+                    <img src="img/interlagos-ima.jpg" alt="Fórmula 1 Interlagos">
+                </div>
+                <div class="card-content">
+                    <h3>Grande Prêmio do Brasil</h3>
+                    <p class="code-ref" style="margin-bottom: 0;">
+                        A chegada do circo mundial. Em 1972 (extra-campeonato) e 1973 (oficial), o Brasil entrou no mapa da F1, impulsionado pelo sucesso de Emerson Fittipaldi e o traçado antigo de 8km de Interlagos.
+                    </p>
+                </div>
+            </article>
+
+            <!-- CARD 5: Stock Car (Início) -->
+            <article class="card">
+                <div class="card-image">
+                    <!-- Carros alinhados -->
+                    <img src="img/stock-ima.jpg" alt="Stock Car Opala">
+                </div>
+                <div class="card-content">
+                    <h3>Nascimento da Stock Car</h3>
+                    <p class="code-ref" style="margin-bottom: 0;">
+                        O fim da década (1979) marcou a padronização. Criada para substituir a extinta Divisão 1, a categoria monomarca de Opalas nasceu para profissionalizar e igualar o grid, tornando-se a maior do país.
+                    </p>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- A HISTÓRIA (Banner Escuro) -->
+    <section id="historia" class="history-banner">
+        <h2 class="section-title dark-bg-title">4. História</h2>
+        
+        <div class="banner-content">
+            <!-- Imagem de fundo aplicada via CSS ou IMG com overlay -->
+            <div class="overlay-text">
+                <h2>A História da Velocidade Brasileira</h2>
+                <p>A década de 1970 foi um período de grande efervescência para o automobilismo brasileiro, marcado pela ascensão de pilotos de renome internacional e uma intensa participação da indústria nacional nas pistas. O Brasil consolidou sua posição no cenário global com a entrada do Autódromo de Interlagos no Circuito Mundial de Fórmula 1 em 1972, o que atraiu olhares e impulsionou as categorias locais. Nomes como Emerson Fittipaldi já brilhavam na F1, servindo de inspiração para toda uma geração. Além disso, houve o surgimento de competições de alto nível, como a "Copa Brasil" de protótipos, que visava trazer o país para o calendário de eventos internacionais mais prestigiados.
+                <p>As categorias de turismo e protótipos nacionais eram o palco da rivalidade acirrada entre as grandes montadoras e os pequenos fabricantes "fora de série". Nos circuitos, dominavam modelos icônicos como o Chevrolet Opala SS, o Ford Maverick GT V8 e o Puma GTB. O Opala, por exemplo, foi a base para o surgimento da Stock Car em 1979 (embora no final da década), categoria que se tornaria a principal do país. Já os modelos Puma, com sua carroceria de fibra de vidro e mecânica Volkswagen (como o GT e o GTB, que posteriormente usou motor 6 cilindros do Opala), eram leves e ágeis, fazendo grande sucesso tanto nas ruas quanto nas pistas.</p>
+                <p>Uma curiosidade marcante da época era a busca por carros esportivos nacionais que fossem acessíveis e competitivos. Fabricantes como Puma e, mais tarde, Miura, com seus carros de chassi Volkswagen (e mecânica a ar ou, posteriormente, refrigerada a água), representavam o sonho do esportivo brasileiro. Outra particularidade era o uso da chamada "gasolina azul" de alta octanagem, essencial para alguns motores de alto desempenho, como os 1.7 do VW SP2. A paixão pela velocidade, combinada com a criatividade da engenharia nacional, fez dos anos 70 uma era dourada, moldando para sempre a história das corridas no Brasil.</p>
+
+                <a href="#" class="link-orange">#início</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer id="contato">
+        <h2 class="footer-title">Fonte: Arquivo Curva 73</h2>
     </footer>
+
+    <!-- Script Externo (Mesmo arquivo anterior funciona, ou use o novo abaixo se preferir) -->
     <script src="script.js"></script>
 </body>
-
 </html>
