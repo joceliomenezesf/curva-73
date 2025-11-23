@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalhes: Opala Stock Car | Curva 73</title>
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=Roboto+Mono:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+    <style>
+        /* Estilos específicos para páginas de detalhe */
+        .detail-header { padding: 4rem var(--spacing-container); background: #fff; border-bottom: 2px solid var(--color-accent); }
+        .detail-title { font-size: 3rem; margin-bottom: 0.5rem; letter-spacing: -2px; }
+        .detail-meta { font-family: var(--font-sans); color: #666; font-size: 0.9rem; }
+        .detail-content { display: flex; flex-wrap: wrap; gap: 4rem; padding: 4rem var(--spacing-container); }
+        .detail-img { flex: 1; min-width: 300px; }
+        .detail-img img { border: 5px solid #000; filter: grayscale(100%); transition: filter 0.5s; }
+        .detail-img img:hover { filter: grayscale(0%); }
+        .detail-info { flex: 1; min-width: 300px; }
+        .specs-table { width: 100%; border-collapse: collapse; margin: 2rem 0; font-family: var(--font-sans); }
+        .specs-table td { padding: 10px; border-bottom: 1px solid #ccc; }
+        .specs-table td:first-child { font-weight: bold; width: 40%; color: var(--color-accent); }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">Curva <span class="orange-text">73</span></div>
+        <nav><ul><li><a href="index.html">#Voltar_Inicio</a></li></ul></nav>
+    </header>
+
+    <section class="detail-header">
+        <h1 class="detail-title">Chevrolet Opala</h1>
+        <p class="detail-meta">Classificação: Turismo Força Livre // Ano Base: 1979</p>
+    </section>
+
+    <section class="detail-content">
+        <div class="detail-img">
+            <img src="https://images.unsplash.com/photo-1532588826303-a480d7708522?q=80&w=800&auto=format&fit=crop" alt="Opala Stock Car">
+            <p style="margin-top:10px; font-size:0.8rem; color:#888;">Fig. 1: Configuração de pista Interlagos.</p>
+        </div>
+
+        <div class="detail-info">
+            <h2 class="section-title">Ficha Técnica & Legado</h2>
+            <p>O Opala não foi apenas um carro; foi a espinha dorsal do automobilismo brasileiro por três décadas. Na configuração Stock Car, o conforto do modelo de rua dava lugar à brutalidade. Bancos de couro eram trocados por conchas de fibra, e o isolamento acústico era removido para ouvir o grito do motor 250-S.</p>
+            <br>
+            <p>Pilotado por lendas como Ingo Hoffmann e Paulo Gomes, o Opala exigia braço forte. Sem direção hidráulica e com pneus slick largos, domar a traseira solta nas saídas de curva era uma arte que separava os meninos dos homens.</p>
+
+            <table class="specs-table">
+                <tr><td>Motor</td><td>6 Cilindros em linha (4.1L)</td></tr>
+                <tr><td>Potência Est.</td><td>350 cv a 5.800 rpm</td></tr>
+                <tr><td>Alimentação</td><td>Carburador Weber 44 IDF (Duplo)</td></tr>
+                <tr><td>Peso</td><td>1.150 kg</td></tr>
+                <tr><td>Velocidade Máx.</td><td>245 km/h (Reta oposta)</td></tr>
+            </table>
+
+            <a href="index.html" class="btn">Voltar para a Lista</a>
+        </div>
+    </section>
+
+    <footer><h2 class="footer-title">Fonteor: Arquivo 73</h2></footer>
+</body>
+</html>

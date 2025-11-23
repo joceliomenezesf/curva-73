@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalhes: Fusca D3 | Curva 73</title>
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=Roboto+Mono:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+    <style>
+        .detail-header { padding: 4rem var(--spacing-container); background: #fff; border-bottom: 2px solid var(--color-accent); }
+        .detail-title { font-size: 3rem; margin-bottom: 0.5rem; letter-spacing: -2px; }
+        .detail-meta { font-family: var(--font-sans); color: #666; font-size: 0.9rem; }
+        .detail-content { display: flex; flex-wrap: wrap; gap: 4rem; padding: 4rem var(--spacing-container); }
+        .detail-img { flex: 1; min-width: 300px; }
+        .detail-img img { border: 5px solid #000; filter: grayscale(100%); transition: filter 0.5s; }
+        .detail-img img:hover { filter: grayscale(0%); }
+        .detail-info { flex: 1; min-width: 300px; }
+        .specs-table { width: 100%; border-collapse: collapse; margin: 2rem 0; font-family: var(--font-sans); }
+        .specs-table td { padding: 10px; border-bottom: 1px solid #ccc; }
+        .specs-table td:first-child { font-weight: bold; width: 40%; color: var(--color-accent); }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">Curva <span class="orange-text">73</span></div>
+        <nav><ul><li><a href="index.html">#Voltar_Inicio</a></li></ul></nav>
+    </header>
+
+    <section class="detail-header">
+        <h1 class="detail-title">Fusca Divisão 3</h1>
+        <p class="detail-meta">Classificação: Turismo Especial // Ano Base: 1973</p>
+    </section>
+
+    <section class="detail-content">
+        <div class="detail-img">
+            <img src="https://images.unsplash.com/photo-1541692398341-2208da7b9d23?q=80&w=800&auto=format&fit=crop" alt="Fusca de Corrida">
+            <p style="margin-top:10px; font-size:0.8rem; color:#888;">Fig. 3: Modificações extremas na carroceria.</p>
+        </div>
+
+        <div class="detail-info">
+            <h2 class="section-title">A Metamorfose</h2>
+            <p>Esqueça o carrinho simpático de ir à padaria. Na Divisão 3, o regulamento permitia modificações radicais. Os Fuscas ganhavam para-lamas alargados para comportar pneus slick gigantes, aerofólios "rabo de pato" e a frente baixava até raspar no asfalto.</p>
+            <br>
+            <p>Mecanicamente, eram monstros. Motores Volkswagen a ar preparados com virabrequins especiais, comandos bravos e lubrificação por cárter seco, girando acima de 7.000 rpm. O barulho era ensurdecedor e a tocada exigia perícia constante para controlar o sobresterço característico.</p>
+
+            <table class="specs-table">
+                <tr><td>Motor</td><td>VW Boxer Refrigerado a Ar (Até 2.3L)</td></tr>
+                <tr><td>Alimentação</td><td>Dupla Carburação Weber 48</td></tr>
+                <tr><td>Potência</td><td>180 cv (Aspirado)</td></tr>
+                <tr><td>Câmbio</td><td>4 ou 5 marchas (Relação curta)</td></tr>
+                <tr><td>Apelido</td><td>"Besouro Atômico"</td></tr>
+            </table>
+
+            <a href="index.html" class="btn">Voltar para a Lista</a>
+        </div>
+    </section>
+
+    <footer><h2 class="footer-title">Fonteor: Arquivo 73</h2></footer>
+</body>
+</html>
