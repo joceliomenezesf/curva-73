@@ -1,122 +1,34 @@
-[
-  {
-    "nome": "Opala",
-    "descricao": "O grande ícone da Stock Car Brasil por décadas, notável pela robustez e o lendário motor 6 cilindros 4.1.",
-    "data_criacao": "1968",
-    "link": "https://pt.wikipedia.org/wiki/Chevrolet_Opala"
-  },
-  {
-    "nome": "Willys Interlagos",
-    "descricao": "Foi o primeiro carro esportivo fabricado no Brasil, uma versão licenciada do Alpine A108, feito especificamente para competições.",
-    "data_criacao": "1962",
-    "link": "https://pt.wikipedia.org/wiki/Willys_Interlagos"
-  },
-  {
-    "nome": "Puma GT",
-    "descricao": "Um dos esportivos nacionais mais bem-sucedidos, famoso pela carroceria de fibra de vidro e por ter evoluído do carro de corrida Malzoni GT.",
-    "data_criacao": "1967",
-    "link": "https://pt.wikipedia.org/wiki/Puma_GT"
-  },
-  {
-    "nome": "GT Malzoni",
-    "descricao": "O precursor do Puma, foi um cupê esportivo de corrida que utilizava mecânica DKW, iniciando a era dos fora de série nas pistas brasileiras.",
-    "data_criacao": "1964",
-    "link": "https://pt.wikipedia.org/wiki/DKW-Vemag_GT_Malzoni"
-  },
-  {
-    "nome": "Ford Maverick GT",
-    "descricao": "O representante dos muscle cars nacionais, destacou-se em provas de longa duração pela potência do seu motor V8.",
-    "data_criacao": "1973",
-    "link": "https://pt.wikipedia.org/wiki/Ford_Maverick"
-  },
-  {
-    "nome": "Volkswagen Passat TS",
-    "descricao": "Dominou a Divisão 3 na década de 70, especialmente com o motor 1.6 preparado, sendo crucial para a formação de novos pilotos e competindo com sucesso em corridas de longa duração.",
-    "data_criacao": "1976",
-    "link": "https://pt.wikipedia.org/wiki/Volkswagen_Passat_(Brasil)"
-  },
-  {
-    "nome": "Dodge Dart Coupé",
-    "descricao": "Um dos muscle cars mais potentes a competir na Divisão 1 e Protótipos no Brasil. Seu motor V8 de grande cilindrada era sinônimo de força nas pistas brasileiras nos anos 70.",
-    "data_criacao": "1970",
-    "link": "https://pt.wikipedia.org/wiki/Dodge_Dart_(Brasil)"
-  },
-  {
-    "nome": "Fitti-Vê",
-    "descricao": "Monoposto desenvolvido pelos irmãos Fittipaldi (Wilson e Emerson) para a categoria de formação Fórmula Vê. Foi a escola de pilotagem para muitos campeões nacionais.",
-    "data_criacao": "1967",
-    "link": "https://pt.wikipedia.org/wiki/Fórmula_Vê"
-  },
-  {
-    "nome": "Chevette GP",
-    "descricao": "Versão esportiva que se tornou um pilar nas corridas de Marcas e Pilotos e na Copa Chevette, um campeonato monomarca que revelou talentos devido à sua pilotagem desafiadora.",
-    "data_criacao": "1977",
-    "link": "https://pt.wikipedia.org/wiki/Chevrolet_Chevette"
-  },
-  {
-    "nome": "Karmann Ghia TC",
-    "descricao": "O 'Turismo Coupé' brasileiro, desenvolvido a partir da plataforma VW. Foi amplamente utilizado em provas de longa duração e velocidade, notável por seu design esportivo e mecânica confiável.",
-    "data_criacao": "1970",
-    "link": "https://pt.wikipedia.org/wiki/Karmann-Ghia_TC"
-  },
-  {
-    "nome": "DKW Vemaguet",
-    "descricao": "Embora fosse uma perua, versões preparadas da Vemaguet competiram ferozmente nas primeiras provas de turismo e endurance nos anos 60, famosa pelo seu motor de três cilindros e dois tempos.",
-    "data_criacao": "1958",
-    "link": "https://pt.wikipedia.org/wiki/DKW-Vemag_Vemaguet"
-  },
-  {
-    "nome": "Simca Rallye",
-    "descricao": "Versão de alto desempenho do Simca Chambord, usada nas competições de Turismo. Era conhecido pela robustez e foi um dos primeiros carros de produção a popularizar as corridas no Brasil.",
-    "data_criacao": "1963",
-    "link": "https://pt.wikipedia.org/wiki/Simca_Chambord"
-  },
-  {
-    "nome": "Avallone A1",
-    "descricao": "Protótipo nacional de competição da década de 70. Utilizava chassi tubular e, frequentemente, motores V8, competindo em campeonatos de Força Livre e Endurance.",
-    "data_criacao": "1973",
-    "link": "https://pt.wikipedia.org/wiki/Avallone_(automóvel)"
-  },
-  {
-    "nome": "Aldee Fórmula 2",
-    "descricao": "Monoposto nacional projetado e construído no Brasil para a categoria Fórmula 2, um esforço para desenvolver um carro de corrida de alto nível com tecnologia local nos anos 70.",
-    "data_criacao": "1976",
-    "link": "https://pt.wikipedia.org/wiki/Aldee"
-  },
-  {
-    "nome": "Bianco S",
-    "descricao": "Um elegante carro esporte com chassi VW Fusca. Participou de competições menores de pista e rali nos anos 70, destacando-se pela carroceria leve de fibra de vidro.",
-    "data_criacao": "1972",
-    "link": "https://pt.wikipedia.org/wiki/Bianco_S"
-  },
-  {
-    "nome": "Furia GT",
-    "descricao": "Famoso protótipo de corrida desenhado por Toni Bianco e outros, conhecido por sua carroceria extremamente aerodinâmica e linhas agressivas, sendo um ícone da velocidade nacional.",
-    "data_criacao": "1970",
-    "link": "https://pt.wikipedia.org/wiki/Fúria_(automóvel)"
-  },
-  {
-    "nome": "Alfa Romeo 2300 Ti",
-    "descricao": "Sedã de luxo que, em versões preparadas, surpreendeu nas pistas de Stock Car e Turismo nos anos 80. Era apreciado pela suspensão e pelo motor potente.",
-    "data_criacao": "1974",
-    "link": "https://pt.wikipedia.org/wiki/Alfa_Romeo_2300"
-  },
-  {
-    "nome": "FNM JK 2000",
-    "descricao": "Pioneiro nas corridas de turismo pesado no Brasil. Era o carro de série mais veloz da sua época, competindo com sucesso nas provas de longa duração antes do advento do Alfa Romeo 2000.",
-    "data_criacao": "1960",
-    "link": "https://pt.wikipedia.org/wiki/FNM_JK_2000"
-  },
-  {
-    "nome": "Volkswagen SP2",
-    "descricao": "Embora concebido como Gran Turismo de rua, sua aerodinâmica e mecânica VW confiável permitiram participações notáveis em competições de endurance nos anos 70.",
-    "data_criacao": "1972",
-    "link": "https://pt.wikipedia.org/wiki/Volkswagen_SP2"
-  },
-  {
-    "nome": "Gurgel X-12",
-    "descricao": "Jipe nacional, famoso por sua carroceria em plástico e tecnologia Plasteel. Foi intensamente utilizado e vitorioso nas provas de rali e off-road no Brasil, demonstrando grande resistência.",
-    "data_criacao": "1975",
-    "link": "https://pt.wikipedia.org/wiki/Gurgel_X-12"
-  }
-]
+{
+  "projeto": "Curva 73",
+  "secao": "Modelos em Destaque",
+  "veiculos": [
+    {
+      "id": 1,
+      "modelo": "Opala Stock Car",
+      "descricao": "O peso-pesado que definiu uma geração. Potência bruta de 6 cilindros.",
+      "imagem_url": "https://images.unsplash.com/photo-1532588826303-a480d7708522?q=80&w=800&auto=format&fit=crop",
+      "botao_texto": "Ver Detalhes"
+    },
+    {
+      "id": 2,
+      "modelo": "Puma GT",
+      "descricao": "A fibra de vidro voadora. Design nacional que encantou o mundo.",
+      "imagem_url": "https://images.unsplash.com/photo-1502161254066-6c74afbf07aa?q=80&w=800&auto=format&fit=crop",
+      "botao_texto": "Ver Detalhes"
+    },
+    {
+      "id": 3,
+      "modelo": "Fusca Divisão 3",
+      "descricao": "Pequeno, largo e barulhento. O terror das curvas travadas de Interlagos.",
+      "imagem_url": "https://images.unsplash.com/photo-1541692398341-2208da7b9d23?q=80&w=800&auto=format&fit=crop",
+      "botao_texto": "Ver Detalhes"
+    },
+    {
+      "id": 4,
+      "modelo": "Protótipo Força Livre",
+      "descricao": "Engenharia de garagem levada ao extremo. Sem regras, apenas velocidade.",
+      "imagem_url": "https://images.unsplash.com/photo-1580273916550-e323be2ed5d6?q=80&w=800&auto=format&fit=crop",
+      "botao_texto": "Ver Detalhes"
+    }
+  ]
+}
